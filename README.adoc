@@ -26,6 +26,15 @@ EMNLP 2022) |16 Feb 2022 |They show glue evaluation of PETuning is
 broken because test set is not used (only validation set) + using real
 train/dev/test splits, PETuning falls short of finetuning
 
+|https://arxiv.org/pdf/2301.06627.pdf[Dissociating language and thought 
+in large language models: a cognitive perspective] (Mahowald et. al) |16
+Jan 2023 |Difference between formal language proficiency and reasoning 
+capabilities
+
+|https://arxiv.org/abs/2212.10001[Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters] (Wang et al., NeurIPS 2022)
+|20 Dec 2022 |Chain of thought prompting ("let's solve this by...") improves
+zeroshot performance substantially
+
 3+|Parameter Efficient Tuning (PETuning)
 
 |https://arxiv.org/abs/2110.04366[Towards a Unified View of
