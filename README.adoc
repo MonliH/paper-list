@@ -1,0 +1,52 @@
+== paper-list
+
+Some papers I have read recently
+
+[width="100%",cols="34%,33%,33%",options="header",]
+|===
+|Name |Date |Notes
+|https://aclanthology.org/2020.tacl-1.11[Theoretical Limitations of
+Self-Attention in Neural Sequence Models] (Hahn, TACL 2020) |16 Jun 2019
+|
+
+|https://aclanthology.org/2022.acl-long.527[Overcoming a Theoretical
+Limitation of Self-Attention] (Chiang & Cholak, ACL 2022) |24 Feb 2022
+|Experimental validation of Hahn (2020) through explicit construction +
+improved length generalization of transformers
+
+|https://arxiv.org/abs/2203.15556[Training Compute-Optimal Large
+Language Models] (Hoffmann et al., 2022) |29 Mar 2022 |Trained a 70B
+model on 4x more data, outperforming Gopher (280B), GPT-3 (175B),
+Jurassic-1 (178B), and Megatron-Turing NLG (530B) + modelled optimal
+amount of training data relative to model size
+
+|https://aclanthology.org/2022.emnlp-main.168[Revisiting
+Parameter-Efficient Tuning: Are We Really There Yet?] (Chen et al.,
+EMNLP 2022) |16 Feb 2022 |They show glue evaluation of PETuning is
+broken because test set is not used (only validation set) + using real
+train/dev/test splits, PETuning falls short of finetuning
+
+3+|Parameter Efficient Tuning (PETuning)
+
+|https://arxiv.org/abs/2110.04366[Towards a Unified View of
+Parameter-Efficient Transfer Learning] (He et al., ICLR 2022) |8 Oct
+2021 |Draws parallels between different PETuning methods + creates a
+unified framework to describe them + uses the framework to create new
+methods
+
+|https://aclanthology.org/2022.acl-short.1[BitFit: Simple
+Parameter-efficient Fine-tuning for Transformer-based Masked
+Language-models] (Ben Zaken et al., ACL 2022) |18 Jun 2021 |PETuning by
+adding learned bias-terms of a transformer
+
+|https://aclanthology.org/2022.acl-short.8[P-Tuning: Prompt Tuning Can
+Be Comparable to Fine-tuning Across Scales and Tasks] (Liu et al., ACL
+2022) |14 Oct 2021 |PETuning by concatenating learned key and value
+matricies to transformer attention (essentially adding a learned prompt
+to every layer)
+
+|https://aclanthology.org/2022.acl-short.8[LoRA: Low-Rank Adaptation of
+Large Language Models] (Hu et al., ICLR 2022) |28 Jan 2022 |PETuning by
+down-projecting weight updates (then merging them back to the model for
+reduced inference latency)
+|===
