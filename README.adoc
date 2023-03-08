@@ -58,4 +58,9 @@ to every layer)
 Large Language Models] (Hu et al., ICLR 2022) |28 Jan 2022 |PETuning by
 down-projecting weight updates (then merging them back to the model for
 reduced inference latency)
+
+|https://aclanthology.org/2022.naacl-main.403[IDPG: An Instance-Dependent 
+Prompt Generation Method] (Wu et al., NAACL 2022) |9 April 2022 |Making prefixes
+as in P-Tuning v2 dependent on input sequence using a compacter-like 2-layer
+MLP (actually a PHM layer for parameter efficiency reasons, though).
 |===
