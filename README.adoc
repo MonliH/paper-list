@@ -35,6 +35,10 @@ capabilities
 |20 Dec 2022 |Chain of thought prompting ("let's solve this by...") improves
 zeroshot performance substantially
 
+|https://arxiv.org/abs/2212.10559[Why Can GPT Learn In-Context? Language Models Secretly Perform Gradient Descent as Meta-Optimizers] (Dai et al.,  2022)
+|20 Dec 2022 |Duing in-context learning, models actually perform GD. In the
+paper, they modify the model using this intuition and get better performance.
+
 3+|Parameter Efficient Tuning (PETuning)
 
 |https://arxiv.org/abs/2110.04366[Towards a Unified View of
