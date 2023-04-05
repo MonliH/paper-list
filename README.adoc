@@ -26,7 +26,7 @@ EMNLP 2022) |16 Feb 2022 |They show glue evaluation of PETuning is
 broken because test set is not used (only validation set) + using real
 train/dev/test splits, PETuning falls short of finetuning
 
-|https://arxiv.org/pdf/2301.06627.pdf[Dissociating language and thought 
+|https://arxiv.org/abs/2301.06627[Dissociating language and thought 
 in large language models: a cognitive perspective] (Mahowald et. al) |16
 Jan 2023 |Difference between formal language proficiency and reasoning 
 capabilities
@@ -38,6 +38,10 @@ zeroshot performance substantially
 |https://arxiv.org/abs/2212.10559[Why Can GPT Learn In-Context? Language Models Secretly Perform Gradient Descent as Meta-Optimizers] (Dai et al.,  2022)
 |20 Dec 2022 |Duing in-context learning, models actually perform GD. In the
 paper, they modify the model using this intuition and get better performance.
+
+|https://arxiv.org/abs/2212.06713[Structured Prompting: Scaling In-Context Learning to 1,000 Examples] (Hao et al., 2022)
+|13 Dec 2022 |Scale ICl to many examples by averaging attention outputs between
+multiple forward passes with different examples.
 
 3+|Parameter Efficient Tuning (PETuning)
 
