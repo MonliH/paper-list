@@ -14,6 +14,10 @@ Limitation of Self-Attention] (Chiang & Cholak, ACL 2022) |24 Feb 2022
 |Experimental validation of Hahn (2020) through explicit construction +
 improved length generalization of transformers
 
+|https://arxiv.org/abs/2305.01625[Unlimiformer: Long-Range Transformers 
+with Unlimited Length Input] (Bertsch et al., 2023) |2 May 2023
+|Unlimited length transformer by using k-NN search with attention
+
 |https://arxiv.org/abs/2203.15556[Training Compute-Optimal Large
 Language Models] (Hoffmann et al., 2022) |29 Mar 2022 |Trained a 70B
 model on 4x more data, outperforming Gopher (280B), GPT-3 (175B),
